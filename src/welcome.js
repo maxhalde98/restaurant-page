@@ -14,7 +14,7 @@ const populateWelcome = () => {
     CONTENT.insertBefore(DESCRIPTION, CONTENT.lastChild);
 
     const POUTINE_DESCRIPTION_IMG = document.createElement('img');
-    POUTINE_DESCRIPTION_IMG.src = '../src/images/poutine.jpg';
+    POUTINE_DESCRIPTION_IMG.src = './images/poutine.jpg';
     POUTINE_DESCRIPTION_IMG.id = 'poutine-img';
     DESCRIPTION.appendChild(POUTINE_DESCRIPTION_IMG);   
 }
